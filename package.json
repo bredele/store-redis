@@ -1,5 +1,5 @@
 {
-  "name": "store-redis",
+  "name": "redis-store",
   "version": "0.0.0",
   "description": "Store plugin to map store with redis hashkey",
   "main": "index.js",
@@ -20,5 +20,12 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bredele/store-redis/issues"
+  },
+  "dependencies": {
+    "redis": "~0.10.1",
+    "store-component": "~0.1.5"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.0"
   }
 }
